@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Get2KnowMe</title>
+    <link rel="icon" type="image/x-icon" href="img/me.JPG" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .img-center {
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        width: 15%;
+      }
+
+      .main-block {
+        background-color: antiquewhite;
+        margin-top: 50px;
+        position: relative;
+        padding: 20px;
+      }
+
+      .rounded-border {
+        display: inline-block;
+        text-align: center;
+        width: 200px;
+        border: 2px solid #000;
+        color: #000;
+        border-radius: 20px;
+        padding: 6px;
+        margin-right: 10px;
+      }
+
+      .active {
+        border: none;
+        background-color: rgb(249, 208, 156);
+      }
+
+      .rounded-border:hover {
+        border: none;
+        background-color: rgb(177, 177, 177);
+        color: white;
+        text-decoration: none;
+        transition: 0.3s ease;
+      }
+
+      .rounded-border-online{
+        display: inline-block;
+        text-align: center;
+        border: 2px solid black;
+        padding: 3px; 
+        border-radius: 20px;
+        background-color: #76b947; 
+        color: black;
+        width: 130px;
+      }
+
+      .rounded-border-online:hover{
+        border: 2px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        color: white;
+        transition: 0.3s ease;
+      }
+
+      .contract {
+        display: flex;
+        justify-content: center;
+      }
+
+      .contract img {
+        width: 40px;
+        margin-right: 10px;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <div style="text-align: center; margin-top: 10px;">
+      <h1>Tam Sopanat</h1>
+      <h5 style="letter-spacing: 8px">CONTACT</h5>
+    </div>
+
+    <nav style="margin-top: 20px;">
+      <center>
+      <a href="index.html" class="rounded-border">Home</a>
+      <a href="aboutme.html" class="rounded-border">About me</a>
+      <a href="contact.html" class="rounded-border active">Contact</a>
+      </center>
+    </nav>
+    </div>
+    <div class="main-block">
+      <div class="status">
+        <img
+          src="img/me.JPG"
+          alt="Profile"
+          class="img-center"
+          style="border-radius: 50%"
+        />
+        <center>
+          <h1>STATUS</h1>
+          <span class="rounded-border-online">Online</span>
+        </center>
+      </div>
+      <br />
+      <div class="contract">
+        <a href="https://www.facebook.com/tam.sopanat/" target="_blank"
+          ><img src="img/fb.svg" alt="FB"
+        /></a>
+        <a href="https://www.instagram.com/sopanat._.pm/" target="_blank">
+          <img src="img/insta.svg" alt="IG"
+        /></a>
+        <a href="https://www.linkedin.com/in/spnat-png" target="_blank"
+          ><img src="img/linkedin.svg" alt="LIN"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
